@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+math_pi/__init__.py
+math_pi.egg-info/PKG-INFO
+math_pi.egg-info/SOURCES.txt
+math_pi.egg-info/dependency_links.txt
+math_pi.egg-info/not-zip-safe
+math_pi.egg-info/requires.txt
+math_pi.egg-info/top_level.txt
