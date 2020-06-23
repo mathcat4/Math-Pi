@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: math-pi
+Version: 0.0.7
+Summary: Has Up to 1 Million digits of pi!
+Home-page: https://github.com/Tams-Tams/pi/blob/master/math_pi_0.0.7
+Author: Tanmay Earappa
+Author-email: Tams.Mathe@gmail.com
+License: MIT
+Description: # This Project has only one function: pi
+        
+        ## You can have **1000000(1 Million) digits** of pi in a string.
+        
+        You can't calculate with it, because if you convert it to foat python will reduce it to 3.141592653589793 but you can many things; make e. a [pi search](https://www.angio.net/pi/piquery.html)(To find a number sequence in pi), [create music with pi](https://www.youtube.com/watch?v=wM-x3pUcdeo), [make a 3D code drawing](https://pi2e.ch/blog/2016/07/11/the-pi-protein/) or even [make a game](https://www.sporcle.com/games/g/pi)! 
+        
+        
+        Install with pip:
+        ```bash
+        pip install math-pi
+        ```
+        
+        An Example:
+        ```python
+        >>>import math_pi
+        >>>print(math_pi.pi(b = 10))
+        3.1415926535
+        >>>print(math_pi.pi(a = 2, b = 10)) # This doesn't return the "3." when the starting number is more than 1
+        415926535
+        >>>print(math_pi.pi(b = 1000000))
+        3.141592653589793238462643383279502884197169399375105820... #Squuezed Output Viewer will pop up when you print a big number
+        ```
+        This Project requires:
+        [pi_1mp](https://pypi.org/project/pi-1mp/)
+        
+        
+        [HomePage](https://github.com/Tams-Tams/pi/blob/master/math_pi_0.0.7)
+        
+        
+        Special Thanks to [Peter Truebsen](https://pi2e.ch/blog/) who inspired me for making this module
+        
+        Note: ThisProject counts numbers after the point. Example ```math_pi.pi(a = 1, b = 3)``` is "3.141"
+        
+        Regards,
+        Tanmay
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
